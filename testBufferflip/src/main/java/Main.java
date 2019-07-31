@@ -13,7 +13,11 @@ import java.nio.ByteBuffer;
 * */
 public class Main {
 
+    private static final String NOT_FIND="未查到有关银行卡信息";
+    private static final String SUCCESS="OPERATION SUCCESS!";
+
     public static void main(String[] args) {
+
 
         System.out.println("Hello World!");
         //先分配一个缓冲区
