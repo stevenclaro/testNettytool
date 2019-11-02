@@ -30,7 +30,7 @@ public class ThreadTest {
         //循环提交任务
         for(int i = 0; i < 12; i++) {
             //提交任务的索引
-            final int index = (i + 1);
+          /*  final int index = (i + 1);
             threadPoolExecutor.submit(() -> {
                 //线程打印输出
                 System.out.println("大家好，我是线程：" + index);
@@ -46,7 +46,7 @@ public class ThreadTest {
                 }
             });
             //每个任务提交后休眠500ms再提交下一个任务，用于保证提交顺序
-            Thread.sleep(500);
+            Thread.sleep(500);*/
         }
     }
 }
